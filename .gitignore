@@ -1,0 +1,52 @@
+#Python 
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+#Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+#Environment variables  
+.env
+.env.local
+.env.production
+
+#Airflow
+airflow.db
+airflow.cfg
+airflow_*.log
+logs/
+standalone_admin_password.txt
+
+#Temporary/data files
+/tmp/
+*.json.tmp
+orders_raw.json
+orders_flat.json
+order_items_flat.json
+
+#OS
+.DS_Store
+Thumbs.db
+
+#IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#Docker
+.docker/
+
+#Data lake
+data_lake/raw/
+data_lake/tmp/
