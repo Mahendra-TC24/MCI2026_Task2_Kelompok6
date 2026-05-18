@@ -195,12 +195,13 @@ Dashboard terpusat bertema gelap (**Unified Business Dashboard**) menampilkan ri
 
 
 ## Kontribusi Tim
- 
+
 | Nama | Tanggung Jawab |
-|------|-------|----------------|
-| **Mahendra Agung Darmawan** | Arsitektur pipeline ETL, implementasi DAG Airflow, konfigurasi ClickHouse (schema & optimasi query), Docker Compose setup, integrasi seluruh komponen, pengujian end-to-end, dan dokumentasi teknis |
-| **Pradipta Raja Mahendra** | Setup dan konfigurasi Metabase dashboard, pembuatan 10+ SQL queries analitik (`sql-metabase.sql`), desain layout visualisasi, serta analisis hasil dashboard |
- 
+| :--- | :--- |
+| **Mahendra Agung Darmawan** | Arsitektur pipeline ETL, implementasi DAG Airflow, konfigurasi ClickHouse (schema & optimasi query), Docker Compose setup, integrasi seluruh komponen, pengujian end-to-end, dan dokumentasi teknis. |
+| **Pradipta Raja Mahendra** | Setup dan konfigurasi Metabase dashboard, pembuatan 10+ SQL queries analitik (`sql-metabase.sql`), desain layout visualisasi, serta analisis hasil dashboard. |
+
+
 ### Pembagian Kerja Detail
  
 **Mahendra Agung Darmawan**
