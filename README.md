@@ -37,7 +37,7 @@ orders-pipeline/
 └── README.md
 ```
  
-## 🏗️ Arsitektur & Alur Pipeline (DAG)
+## Arsitektur & Alur Pipeline (DAG)
  
 Sistem beroperasi secara sekuensial dengan struktur dependensi tugas terarah berbasis **Directed Acyclic Graph (DAG)**:
  
@@ -212,8 +212,10 @@ Dashboard terpusat bertema gelap (**Unified Business Dashboard**) menampilkan ri
 - Melakukan pengujian pipeline secara end-to-end dan penanganan error
 - Menyusun dokumentasi teknis komprehensif
 - Mengkonfigurasi koneksi Metabase ke ClickHouse
+
 **Pradipta Raja**
 - Mengkonfigurasi koneksi Metabase ke ClickHouse
 - Menulis 10+ SQL queries analitik untuk KPI cards dan visualisasi (`sql-metabase.sql`)
 - Membangun layout dashboard "Orders Analytics" (6 KPI + 12 visualisasi)
 - Menyusun analisis dan laporan beserta README.MD berdasarkan temuan data (peak hours, produk terlaris, rekomendasi promosi)
+
