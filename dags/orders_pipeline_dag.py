@@ -1,15 +1,3 @@
-"""
-DAG: Orders Pipeline Orchestration
-Modul 2 & 3 - Pipeline Orchestration & Data Visualization
-Dataset: http://96.9.212.102:8000/orders
-
-Schema (dari data aktual):
-  Orders  : order_id, user_id, order_number, order_dow, order_hour_of_day,
-             days_since_prior_order, eval_set
-  Products: product_id, product_name, aisle_id, aisle, department_id,
-             department, add_to_cart_order, reordered
-"""
-
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
