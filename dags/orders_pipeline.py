@@ -1,21 +1,3 @@
-"""
-orders_pipeline.py
-------------------
-Script pipeline utama: menjalankan seluruh alur ETL secara
-berurutan tanpa Airflow (berguna untuk testing lokal atau
-menjalankan manual).
-
-Alur:
-  fetch_orders  →  process_orders  →  load_to_clickhouse  →  validate
-
-Gunakan:
-  python orders_pipeline.py
-  python orders_pipeline.py --step fetch
-  python orders_pipeline.py --step transform
-  python orders_pipeline.py --step load
-  python orders_pipeline.py --step validate
-"""
-
 import argparse
 import json
 import logging
